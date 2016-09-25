@@ -1,6 +1,6 @@
 {
     "name": "BNMLogin",
-    "version": “0.0.2”,
+    "version": "0.0.2",
     
     "authors": "chenshuijin@baidu.com",
     "license": "MIT",
@@ -13,7 +13,7 @@
 
     "source": {
       "git": "https://github.com/csjhrdd11314/BNMLogin.git",
-      "tag": “0.0.2”
+      "tag": "0.0.2"
     },
     
     "ios": {
