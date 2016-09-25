@@ -1,0 +1,44 @@
+{
+    "name": "BNMLogin",
+    "version": "0.0.2",
+    
+    "authors": "chenshuijin@baidu.com",
+    "license": "MIT",
+    "homepage": "http://www.baidu.com",
+    "summary": "Baidu Portport SDK",
+    
+    "platforms": {
+        "ios": "7.0"
+    },
+
+    "source": {
+      "git": "https://github.com/csjhrdd11314/BNMLogin.git",
+      "tag": "0.0.2"
+    },
+    
+    "ios": {
+        "source_files": "BaiduSAPILib/**/*.*",
+        "vendored_libraries": "BaiduSAPILib/**/*.a"
+    },
+    "frameworks": [
+                   "Foundation",
+                   "CoreTelephony",
+                   "MessageUI",
+                   "AudioToolbox",
+                   "QuartzCore",
+                   "CoreMedia",
+                   "AVFoundation",
+                   "CoreVideo",
+                   "Security",
+                   "UIKit",
+                   "ImageIO",
+                   "WebKit",
+                   "MobileCoreServices",
+                   "CoreGraphics",
+                   "SystemConfiguration"
+                   ],
+    "libraries": ["z","z.1.2.5","iconv","c++","sqlite3"],
+
+    "requires_arc": true
+
+}
