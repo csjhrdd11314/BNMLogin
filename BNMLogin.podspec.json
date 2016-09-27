@@ -1,6 +1,6 @@
 {
     "name": "BNMLogin",
-    "version": "0.0.2",
+    "version": "0.0.3",
     
     "authors": "chenshuijin@baidu.com",
     "license": "MIT",
@@ -13,7 +13,7 @@
 
     "source": {
       "git": "https://github.com/csjhrdd11314/BNMLogin.git",
-      "tag": "0.0.2"
+      "tag": "0.0.3"
     },
     
     "ios": {
@@ -38,6 +38,8 @@
                    "SystemConfiguration"
                    ],
     "libraries": ["z","z.1.2.5","iconv","c++","sqlite3"],
+    "pod_target_xcconfig" : {"OTHER_LDFLAGS" : "-lObjC" },
+
 
     "requires_arc": true
 
